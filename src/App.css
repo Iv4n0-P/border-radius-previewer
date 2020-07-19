@@ -273,7 +273,7 @@ padding: 12px 12px 15px 12px;
 /*--------------------*/
 
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 768px) {
   .title {
     font-size: 18px;
   }
@@ -285,9 +285,9 @@ padding: 12px 12px 15px 12px;
   }
 
   .print-input {
-    min-width: 170px;
+    min-width: 165px;
     height: 13px;
-    font-size: 10px;
+    font-size: 9px;
     border-radius: 5px 5px 0 0; 
     padding: 10px 5px 10px 10px;
    }
