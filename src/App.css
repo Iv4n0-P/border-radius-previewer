@@ -285,10 +285,11 @@ padding: 12px 12px 15px 12px;
   }
 
   .print-input {
-    min-width: 180px;
+    min-width: 170px;
     height: 13px;
     font-size: 10px;
     border-radius: 5px 5px 0 0; 
+    padding: 10px 5px 10px 10px;
    }
 
   .print-button {
@@ -299,7 +300,7 @@ padding: 12px 12px 15px 12px;
 
   .grid-container {
     width: 100%;
-    max-height: 600px;
+    max-height: 100vh;
   }
 
   input[type=number] {
