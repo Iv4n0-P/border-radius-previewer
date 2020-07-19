@@ -67,7 +67,6 @@ class Box extends React.Component {
 
     return (
 
-      //---------------------------
 
       <div className="app">
       <div className="grid-container">
@@ -131,45 +130,6 @@ class Box extends React.Component {
         
       </div>
       </div>
-      //---------------------------
-
-
-
-      /*   <div className="container">
-  
-          <div>
-            <input type="text" ref={(print) => this.print = print} placeholder={`${this.state.tlh}% ${this.state.trh}% ${this.state.brh}% ${this.state.blh}% / ${this.state.tlv}% ${this.state.trv}% ${this.state.brv}% ${this.state.blv}% `} value={`${this.state.tlh}% ${this.state.trh}% ${this.state.brh}% ${this.state.blh}% / ${this.state.tlv}% ${this.state.trv}% ${this.state.brv}% ${this.state.blv}% `} readonly />
-            <button onClick={this.handleOnClick}>Copy value</button>
-          </div>
-  
-          <div className="box" style={{ "border-radius": `${this.state.tlh}% ${this.state.trh}% ${this.state.brh}% ${this.state.blh}% / ${this.state.tlv}% ${this.state.trv}% ${this.state.brv}% ${this.state.blv}% ` }}></div>
-  
-          <div>
-            <input type="range" onChange={this.handleTopSliderChange} />
-          </div>
-          <div>
-            <input type="range" onChange={this.handleRightSliderChange} />
-          </div>
-          <div>
-            <input type="range" onChange={this.handleBottomSliderChange} />
-          </div>
-          <div>
-            <input type="range" onChange={this.handleLeftSliderChange} />
-          </div>
-  
-          <div>
-            <input type="number" value={this.state.tlh} name={'tlh'} placeholder={this.state.tlh} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.trh} name={'trh'} placeholder={this.state.trh} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.brh} name={'brh'} placeholder={this.state.brh} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.blh} name={'blh'} placeholder={this.state.blh} onChange={this.handleOnChange} />
-            <p>/</p>
-            <input type="number" value={this.state.tlv} name={'tlv'} placeholder={this.state.tlv} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.trv} name={'trv'} placeholder={this.state.trv} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.brv} name={'brv'} placeholder={this.state.brv} onChange={this.handleOnChange} />
-            <input type="number" value={this.state.blv} name={'blv'} placeholder={this.state.blv} onChange={this.handleOnChange} />
-          </div>
-  
-        </div> */
     )
   }
 }
