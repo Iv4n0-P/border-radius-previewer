@@ -69,7 +69,6 @@ class Box extends React.Component {
 
       //---------------------------
 
-      <div className="app">
       <div className="grid-container">
 
         <div className="shape">
@@ -129,7 +128,6 @@ class Box extends React.Component {
           <div className="bottom-right-horizontal"></div>
         </div>
         
-      </div>
       </div>
       //---------------------------
 
